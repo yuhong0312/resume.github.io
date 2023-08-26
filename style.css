@@ -5,22 +5,19 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: rgba(201, 195, 195, 0.923);
-    height: 9999px;
+    background-color: rgba(201, 195, 195);
+    
 }
 .main {
-    /* background-color: black; */
-    /* border: 1px red solid; */
     margin: 0 250px;
-    display: block;
+    /* border: 1px yellow solid; */
 }
-
 .topbar {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 13%;
+    padding:  0 260px;
     /* border: 1px yellow solid; */
     background-color: rgb(32, 33, 35);
     z-index: 999;
@@ -35,7 +32,7 @@ body{
 
 .content {
     position: relative;
-    top: 200px;
+    top: 100px;
     justify-content: space-between;
     width: 100%;
     color: rgb(2, 2, 2);
@@ -55,7 +52,7 @@ body{
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    left: 1%;
+    /* left: ; */
     width:300px;
     height:300px;
 }
@@ -63,7 +60,7 @@ body{
 .navbar{
     display:flex;
     justify-content: space-between;
-    width: 30%;
+    width: 300px;
     color: white; 
     font-size:10%; 
     /* border: 1px red solid;  */
@@ -89,13 +86,29 @@ hr{
 }
 .work{
     position: relative;
-    top: 300px;
+    top: 200px;
     /* display: flex?; */
 }
 .work1{
     display: flex;
     justify-content: space-between;
+    /* border: 5px solid rgb(230, 6, 6); */
 }
 .work1Detail{
     justify-content: center;
+}
+.bottombar{
+    position: fixed;
+    display: flex;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(32, 33, 35);
+    /* justify-content: space-between; */
+}
+.icon{
+    margin: 8px 0 0 20px;
+}
+.icon a:visited,a:active,a:link{
+    color: white;
 }
