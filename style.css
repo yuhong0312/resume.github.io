@@ -9,7 +9,7 @@ body{
     
 }
 .main {
-    margin: 0 250px;
+    margin:100px 200px 300px 200px;
     /* border: 1px yellow solid; */
 }
 .topbar {
@@ -45,6 +45,7 @@ body{
     width: 50%;
     color: rgb(0, 0, 0);
     /* border: 1px yellow solid; */
+    overflow-y:hidden; 
 }
 
 .selfpic {
@@ -86,13 +87,16 @@ hr{
 }
 .work{
     position: relative;
+    /* border: 1px blue solid; */
     top: 200px;
     /* display: flex?; */
 }
 .work1{
     display: flex;
     justify-content: space-between;
+    height: min-content;
     /* border: 5px solid rgb(230, 6, 6); */
+    margin: 70px 0;
 }
 .work1Detail{
     justify-content: center;
