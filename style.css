@@ -18,12 +18,12 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    padding:  0 260px;
+    padding:  0 150px;
     /* border: 1px yellow solid; */
     background-color: rgb(32, 33, 35);
     z-index: 999;
     overflow: hidden;
-    height: 100px;
+    height: 70px;
     display: flex;
     color: white;
     align-items: center;
@@ -96,9 +96,19 @@ hr{
 .work1{
     display: flex;
     justify-content: space-between;
-    height: min-content;
+    height: 560px;
     /* border: 5px solid rgb(230, 6, 6); */
     margin: 70px 0;
+}
+.work1 img:hover
+{
+    z-index: 1;
+    width: 80%;
+    height: 100%;
+    transition: .2s;
+}
+.work1 h1,h2{
+    position: relative; top: 10%;
 }
 .work1Detail{
     justify-content: center;
